@@ -83,7 +83,7 @@ p {
 
 .profile__location {
   font-weight: var(--fw-large);
-  color: var(--green);  
+  color: var(--green);
   margin-bottom: 1rem;
   opacity: 0.7;
 }
@@ -116,6 +116,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact__link:hover {
+  background-color: var(--green);
+}
+
+.contact__link:hover a {
+  color: var(--grey-medium);
 }
 
 .contact__link a {
