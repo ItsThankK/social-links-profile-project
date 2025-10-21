@@ -123,3 +123,10 @@ p {
   text-decoration: none;
   color: var(--white);
 }
+
+@media (max-width: 45rem) {
+  .card {
+    max-width: 32rem;
+    padding: 2.5rem;
+  }
+}
