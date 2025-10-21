@@ -119,6 +119,7 @@ p {
 }
 
 .contact__link:hover {
+  cursor: pointer;
   background-color: var(--green);
 }
 
